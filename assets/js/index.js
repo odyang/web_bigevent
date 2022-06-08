@@ -12,8 +12,6 @@ $(function() {
             layer.close(index);
         });
     });
-
-
 })
 
 // 获取用户基本信息
@@ -28,7 +26,6 @@ function getUserInfo() {
         }
     })
 };
-
 //封装渲染用户头像函数
 function renderAvatar(user) {
     var name = user.nickname || user.username;

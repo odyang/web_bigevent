@@ -33,6 +33,8 @@ $(function() {
             .cropper('destroy') // 销毁旧的裁剪区域
             .attr('src', newImgUrl) // 重新设置图片路径
             .cropper(options) // 重新初始化裁剪区域
+            //回复上传头像按钮
+        $('#btnUpload').removeClass('layui-btn-disabled');
     });
 
     $('#btnUpload').on('click', function() {
@@ -59,12 +61,4 @@ $(function() {
         })
 
     })
-
-
-
-
-
-
-
-
 })

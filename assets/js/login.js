@@ -9,7 +9,6 @@ $(function() {
         $('.login-box').show();
         $('.reg-box').hide();
     });
-
     // 从layui中引入form模块
     var form = layui.form;
     var layer = layui.layer;
@@ -43,7 +42,6 @@ $(function() {
                 // 注册成功后，跳转到登录页面
                 $('#link_login').click();
             });
-
     });
     // 监听登录提交
     $('#form_login').on('submit', function(e) {
@@ -65,11 +63,4 @@ $(function() {
             }
         });
     })
-
-
-
-
-
-
-
 })
